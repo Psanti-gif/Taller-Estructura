@@ -5,8 +5,7 @@ public class producto {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
-
+    public void MetodoProducto() {
         int cantidad = 0;
         System.out.print("Ingrese un número: ");
         cantidad = sc.nextInt();
