@@ -7,6 +7,7 @@ public class Menu {
 
         Scanner sc = new Scanner(System.in);
         producto pd = new producto();
+        libreria lb = new libreria();
         System.out.println("Ingrese la ejercicio que desea ejecutar \n1. Punto 1\n2. Punto 2");
         switch (sc.nextInt()) {
             case 1:
@@ -14,7 +15,7 @@ public class Menu {
 
                 break;
             case 2:
-
+                lb.MetodoLibreria();
                 break;
             default:
                 System.out.println("ingrese un valor valido");

@@ -1,9 +1,9 @@
-package punto3;
+
 import java.util.Scanner;
 
 public class libreria{
     
-    public static void main(String[] args) {
+    public void MetodoLibreria() {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Ingrese el número de filas de la librería:");
@@ -26,7 +26,6 @@ public class libreria{
     }
     
     public static void llenarLibreria(Libro[][] libreria, Scanner sc) {
-        System.out.print(libreria + " Esto es libreria");
         for (int i = 0; i < libreria.length; i++) {
             for (int j = 0; j < libreria[i].length; j++) {
                 System.out.println("\nLibro en posición [" + i + "," + j + "]:");
